@@ -12,3 +12,4 @@
 
 🖼️ Able to send link images in text messages
 
+🌐 Redirect to social media sites
