@@ -71,7 +71,7 @@ const MyChatBot = () => {
               switch (params.userInput) {
                   case "Upcoming":
                     message = `
-  <a href='https://www.hoyolab.com/article/28337682?utm_source=sns&utm_medium=link'>
+  <a href='https://www.hoyolab.com/article/28337682?utm_source=sns&utm_medium=link target="_blank"'>
       <img src='${DiscordEvent}' alt='Honkai: Star Rail Version 2.2 Discord Quest Stream Event' style='max-width: 100%; height: auto;' />
   </a>
   <p><b>Honkai: Star Rail Version 2.2 Discord Quest Stream Event</b></p>
