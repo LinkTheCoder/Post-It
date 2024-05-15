@@ -3,6 +3,7 @@ import botAvatar from "../src/assets/Avatar.webp";
 import pompomHey from "../src/assets/Pom-Pom_Hey.webp"; 
 import pompomPuzzled from "../src/assets/Pom-Pom_Puzzled.webp"; 
 import pompomSparkle from "../src/assets/Pom-Pom_Sparkle.webp";
+import DiscordEvent from "../src/assets/events/DiscordEvent.webp";
 
 
 const MyChatBot = () => {
@@ -69,10 +70,12 @@ const MyChatBot = () => {
               let message = "";
               switch (params.userInput) {
                   case "Upcoming":
-                      message = `
-                          <a href='https://www.hoyolab.com/article/28337682?utm_source=sns&utm_medium=link'>
-                              <img src='../src/assets/events/DiscordEvent.webp' alt='Honkai: Star Rail Version 2.2 Discord Quest Stream Event' style='max-width: 100%; height: auto;' />
-                          </a><p><b>Honkai: Star Rail Version 2.2 Discord Quest Stream Event</b><p>`;
+                    message = `
+  <a href='https://www.hoyolab.com/article/28337682?utm_source=sns&utm_medium=link'>
+      <img src='${DiscordEvent}' alt='Honkai: Star Rail Version 2.2 Discord Quest Stream Event' style='max-width: 100%; height: auto;' />
+  </a>
+  <p><b>Honkai: Star Rail Version 2.2 Discord Quest Stream Event</b></p>
+`;
         
                       break;
                   default:
