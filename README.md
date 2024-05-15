@@ -6,6 +6,9 @@
   
 > [!NOTE]
 > 
-> A Honkai: Star Rail web bot!
->
+> In Progress. . .
+
+✨ Able to send stickers
+
+🖼️ Able to send link images in text messages
 
