@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/sUi9rFm.gif" width="25%" />
 
-<br><br>
+<br>
   
 > [!NOTE]
 > 
