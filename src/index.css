@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,43 +17,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #6bd7ef;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #a9edfc;
-}
 
 body {
+  @apply bg-cover bg-center bg-no-repeat;
+  background-image: url('./assets/bg.jpg'); /* Path to your background image */
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url("./assets/Wallpaper.jpg");
-  background-size: cover;
-  background-position: center;
 }
 
-.stickers
-{
-  width: 200px;
-  margin-top: 20px;
-  margin-left: 20px;
-}
 
-.fade-in {
-  opacity: 0;
-  animation: fade-in 1s ease forwards;
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}

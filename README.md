@@ -1,4 +1,4 @@
-# Pom-Pom
+# Post-It
 
 <img src="https://i.imgur.com/sUi9rFm.gif" width="25%" />
 
