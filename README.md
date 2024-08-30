@@ -1,15 +1,10 @@
 # Post-It
 
-<img src="https://i.imgur.com/sUi9rFm.gif" width="25%" />
+<img src="https://i.imgur.com/fRjExn5.png" width="70%" />
 
 <br>
   
-> [!NOTE]
-> 
-> In Progress. . .
 
-✨ Able to send stickers
+📌 Able to create post-it notes with text
 
-🖼️ Able to send link images in text messages
-
-🌐 Redirect to social media sites
+📌 Also drag-able notes
