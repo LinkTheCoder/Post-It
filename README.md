@@ -7,4 +7,4 @@
 
 📌 Able to create post-it notes with text
 
-📌 Also move-able
+📌 Also drag-able notes
